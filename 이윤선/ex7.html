@@ -1,0 +1,32 @@
+	<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv='content-type' content='text/html; charset=utf-8'>
+<title></title>
+<style type="text/css">
+.position_left
+{
+  position:relative;
+  left:-30px;}
+.position_right
+   {
+     position:relative;
+    left:+60px;
+   }
+h2{
+    position:relative;
+    left:50px;
+    top:200px;
+    width:200px;
+    color:#FFF;
+    background-color:#d74937;
+    }
+</style>
+ </head>
+ <body>
+    <p>일반 콘텐츠 : 브라우저 너비에 맞춰서 유동적으로 표시됩니다.</p>
+    <h2>절대좌표계: 페이지 기준으로 우측으로 50px, 아래로 200px 이동하였습니다</h2>
+    <h2 class="position_left">상대좌표계 : 원래 위치에서 왼쪽으로-30px 이동합니다.</h2>
+    <h2 class="position_right">상대좌표계 : 원래 위치에서 오른쪽으로 +60px 이동합니다.</h2>
+ </body>
+</html>
